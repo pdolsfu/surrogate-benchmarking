@@ -1,0 +1,49 @@
+# this Dakota file creates a surrogate model of [test function #9]
+
+environment
+    tabular_data 
+        tabular_data_file = "f9_surrogate.dat"                       # CHANGE THIS LINE
+        top_method_pointer = 'LHS'
+method
+    id_method = 'LHS'
+    model_pointer = 'SURROGATE_MODEL'
+    sampling
+        sample_type lhs
+        samples = 2000
+        seed = 123 
+
+model
+    id_model = 'SURROGATE_MODEL'
+    surrogate global
+    mars
+    dace_method_pointer = 'TRAIN'
+
+method
+  id_method = 'TRAIN'
+  sampling
+    sample_type lhs
+    samples = 385                                                # CHANGE THIS LINE
+    seed = 125
+    model_pointer = 'TRUTH'
+
+model
+  id_model = 'TRUTH'
+  single
+ 
+variables                                                        # CHANGE THIS BLOCK
+  continuous_design = 20                                        # CHANGE THIS LINE
+    initial_point    20*1 
+    lower_bounds     20*0                                       # CHANGE THIS BLOCK   
+    upper_bounds     20*25                                       # CHANGE THIS BLOCK    
+
+interface
+    analysis_driver = "python f9_driver.py"                       # CHANGE THIS LINE
+    fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+        file_tag
+        
+responses
+    objective_functions = 1
+    no_gradients
+    no_hessians

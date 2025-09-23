@@ -1,0 +1,56 @@
+1
+
+                                             * * * * * * * * *  L H S  * * * * * * * * *
+
+                                             LATIN HYPERCUBE AND RANDOM SAMPLING PROGRAM
+
+                                             * * * * * * * * * * * * * * * * * * * * * *
+
+
+    Run on  6/17/25 at 12:33:47.11 with LHS Version: 2.30 Release 1, Compiled May 31, 2001        
+
+
+0    Pecos::LHSDriver
+
+    Random Seed =         125
+
+    Number of Variables =  30
+
+    Number of Observations = 2397
+0   The sample was written to the file: LHS_samples.out
+0   Input was read from the file: 
+1
+
+    Pecos::LHSDriver                                                                                                             
+
+    VARIABLE  DISTRIBUTION          RANGE            LABEL
+0       1        UNIFORM    -2.00     TO   3.00                                                        
+0       2        UNIFORM    -2.00     TO   3.00                                                        
+0       3        UNIFORM    -2.00     TO   3.00                                                        
+0       4        UNIFORM    -2.00     TO   3.00                                                        
+0       5        UNIFORM    -2.00     TO   3.00                                                        
+0       6        UNIFORM    -2.00     TO   3.00                                                        
+0       7        UNIFORM    -2.00     TO   3.00                                                        
+0       8        UNIFORM    -2.00     TO   3.00                                                        
+0       9        UNIFORM    -2.00     TO   3.00                                                        
+0      10        UNIFORM    -2.00     TO   3.00                                                        
+0      11        UNIFORM    -2.00     TO   3.00                                                        
+0      12        UNIFORM    -2.00     TO   3.00                                                        
+0      13        UNIFORM    -2.00     TO   3.00                                                        
+0      14        UNIFORM    -2.00     TO   3.00                                                        
+0      15        UNIFORM    -2.00     TO   3.00                                                        
+0      16        UNIFORM    -2.00     TO   3.00                                                        
+0      17        UNIFORM    -2.00     TO   3.00                                                        
+0      18        UNIFORM    -2.00     TO   3.00                                                        
+0      19        UNIFORM    -2.00     TO   3.00                                                        
+0      20        UNIFORM    -2.00     TO   3.00                                                        
+0      21        UNIFORM    -2.00     TO   3.00                                                        
+0      22        UNIFORM    -2.00     TO   3.00                                                        
+0      23        UNIFORM    -2.00     TO   3.00                                                        
+0      24        UNIFORM    -2.00     TO   3.00                                                        
+0      25        UNIFORM    -2.00     TO   3.00                                                        
+0      26        UNIFORM    -2.00     TO   3.00                                                        
+0      27        UNIFORM    -2.00     TO   3.00                                                        
+0      28        UNIFORM    -2.00     TO   3.00                                                        
+0      29        UNIFORM    -2.00     TO   3.00                                                        
+0      30        UNIFORM    -2.00     TO   3.00                                                        

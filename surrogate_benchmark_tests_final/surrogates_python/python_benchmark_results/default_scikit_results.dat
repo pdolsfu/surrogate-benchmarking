@@ -1,0 +1,26 @@
+sklearn GP Regressor model results with the kernel set to: constant_value_bounds = "fixed", length_scale_bounds = "fixed", and n_restarts_optimizer = 0
+
+
+time	         R2	        RAAE	        RMAE	        model_type     function 
+7.071e-03	-2.444e+00	1.567e+00	6.512e+00	scikit         1
+8.162e-01	9.369e-01	1.642e-01	1.435e+00	scikit         2
+3.587e-02	-4.583e-04	8.117e-01	2.384e+00	scikit         3
+4.202e-02	-2.384e-04	8.367e-01	3.019e+00	scikit         4
+4.863e-02	-1.437e-04	7.906e-01	3.097e+00	scikit         5
+4.484e-01	-9.535e+00	3.088e+00	7.254e+00	scikit         7
+6.556e-02	-2.798e+01	5.290e+00	8.937e+00	scikit         8
+3.686e-02	-1.893e+01	4.351e+00	8.125e+00	scikit         9
+9.866e-02	-1.345e+00	1.236e+00	6.968e+00	scikit         10
+3.136e-02	1.109e-02	6.312e-01	9.878e+00	scikit         11
+6.835e-02	-5.009e-04	2.238e-02	4.473e+01	scikit         12
+7.849e-03	-3.414e-01	6.840e-01	1.676e+01	scikit         13
+3.830e-02	-6.852e+01	8.278e+00	1.145e+01	scikit         14
+ 
+          
+          
+       
+         
+       
+ 
+
+

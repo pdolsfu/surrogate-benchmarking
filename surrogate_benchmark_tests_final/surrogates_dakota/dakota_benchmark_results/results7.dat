@@ -1,0 +1,9 @@
+time	R2	RAAE	RMAE	model_type
+7.527e+02	7.540e-01	3.864e-01	2.268e+00	mars
+9.214e+02	6.240e-01	4.657e-01	2.976e+00	neural_network
+7.570e+02	8.536e-01	2.838e-01	2.917e+00	radial_basis
+7.340e+02	3.581e-01	6.243e-01	3.564e+00	polynomial linear
+4.070e+02	9.791e-01	9.914e-02	1.248e+00	polynomial quadratic
+9.787e+02	-1.775e+01	3.358e+00	1.923e+01	polynomial cubic
+
+

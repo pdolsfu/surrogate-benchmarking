@@ -1,0 +1,8 @@
+time	R2	RAAE	RMAE	model_type
+2.600e+01	9.165e-01	2.239e-01	1.324e+00	gaussian_process dakota
+2.532e+01	8.831e-01	2.665e-01	1.706e+00	mars
+2.498e+01	5.734e-01	4.902e-01	3.739e+00	neural_network
+2.493e+01	7.592e-01	3.890e-01	2.226e+00	radial_basis
+2.478e+01	5.276e-01	5.397e-01	3.920e+00	polynomial linear
+2.482e+01	8.628e-01	2.905e-01	1.643e+00	polynomial quadratic
+4.836e+01	-5.993e+01	5.740e+00	3.653e+01	polynomial cubic
